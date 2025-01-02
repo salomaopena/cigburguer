@@ -1,0 +1,71 @@
+/*style.css*/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #28251E !important;
+    color: #fff;
+}
+
+.nav-link{
+    color: #FFA54C;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.nav-link:hover{
+    color: #FFC926;
+    text-decoration: underline;
+}
+
+.bg-color-02{
+    background-color: #2F2B24;
+}
+
+.btn-products{
+    background: linear-gradient(to bottom,#FFBD04,#FFA100);
+    color: #111111;
+    padding: 10px 50px;
+    border-radius: 25px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.btn-products:hover{   
+    background: linear-gradient(to bottom,#FFF6C3,#FFC96C);
+}
+
+.product-box{
+    background-color: #2F2B24;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+.product-text-color{
+    color: #FFC926;
+}
+
+.where-we-are-title{
+    font-size: 3em;
+    color: #FFC926;
+}
+
+.where-we-are-subtitle{
+    font-size: 1.5em;
+    color: #FFC926;
+}
+
+.where-we-are-text{
+    font-size: 1em;
+    color: #FFC926;
+}
+
+.where-we-are-text>a{
+    text-decoration: none;
+}
